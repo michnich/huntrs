@@ -4,7 +4,7 @@
     "name": "Free",
     "label": "Free Shipping",
     "group": "Ground",
-    "enabled": true,
+    "enabled": false,
     "rate": 0,
     "validLocales": [{
       "deliveryBegin": 2,
@@ -18,7 +18,7 @@
     "label": "Standard",
     "group": "Ground",
     "enabled": true,
-    "rate": 2.99,
+    "rate": 6.99,
     "validLocales": [{
       "deliveryBegin": 2,
       "deliveryEnd": 7
@@ -28,7 +28,7 @@
     "label": "Priority",
     "group": "Priority",
     "enabled": true,
-    "rate": 6.99,
+    "rate": 9.99,
     "validLocales": [{
       "deliveryBegin": 1,
       "deliveryEnd": 3
