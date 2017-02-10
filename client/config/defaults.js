@@ -23,3 +23,13 @@ Session.setDefault("DEFAULT_LAYOUT", DEFAULT_LAYOUT);
 Session.setDefault("DEFAULT_WORKFLOW", DEFAULT_WORKFLOW);
 Session.setDefault("INDEX_OPTIONS", INDEX_OPTIONS);
 Session.setDefault("productScrollLimit", ITEMS_INCREMENT);
+
+/*sets custom index page*/
+Session.set("INDEX_OPTIONS", {
+  template: "customHomePageTemplate",
+  layoutHeader: "layoutHeader",
+  layoutFooter: "layoutFooter",
+  notFound: "notFound",
+  dashboardControls: "dashboardControls",
+  adminControlsFooter: "adminControlsFooter"
+});
