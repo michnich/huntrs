@@ -1,7 +1,23 @@
 @import "{}/imports/plugins/included/default-theme/client/styles/main.less";
 
+/*FONT*/
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond);
+
+@font-face {
+  font-family: 'gotham';
+  //src: font-url('/fonts/gotham.ttf');
+  //src: font-url('/fonts/gotham.ttf') format('truetype');
+  src: url('/fonts/gotham.ttf');
+  //src: url('/public/fonts/gotham.ttf') format('truetype');
+
+}
+
+@font-family-sans-serif: 'gotham';
+@headings-font-family: 'gotham';
+
 /*NAVBAR*/
 @navbar-default-bg: black;
+@navbar-default-color: #777;
 @navbar-default-link-color: white;
 .nav > li > a:hover, .nav > li > a:focus {
   background-color: transparent;
