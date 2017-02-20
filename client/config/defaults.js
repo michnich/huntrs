@@ -27,7 +27,7 @@ Session.setDefault("productScrollLimit", ITEMS_INCREMENT);
 /*sets custom index page*/
 Session.set("INDEX_OPTIONS", {
   template: "customHomePageTemplate",
-  layoutHeader: "layoutHeader",
+  layoutHeader: "customHeader",
   layoutFooter: "footer",
   notFound: "notFound",
   dashboardControls: "dashboardControls",
