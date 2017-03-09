@@ -59,3 +59,11 @@ openRoutes.route('/contact', {
     });
   }
 });
+
+openRoutes.route('/faq', {
+  action: function() {
+    Reaction.ReactionLayout({
+      template: "faq"
+    });
+  }
+});
