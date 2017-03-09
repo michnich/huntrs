@@ -19,3 +19,43 @@ openRoutes.route('/how-it-works', {
     });
   }
 });
+
+openRoutes.route('/style-guide', {
+  action: function() {
+    Reaction.ReactionLayout({
+      template: "style"
+    });
+  }
+});
+
+openRoutes.route('/featured-closet', {
+  action: function() {
+    Reaction.ReactionLayout({
+      template: "featuredCloset"
+    });
+  }
+});
+
+openRoutes.route('/rules', {
+  action: function() {
+    Reaction.ReactionLayout({
+      template: "rules"
+    });
+  }
+});
+
+openRoutes.route('/terms-of-use', {
+  action: function() {
+    Reaction.ReactionLayout({
+      template: "terms"
+    });
+  }
+});
+
+openRoutes.route('/contact', {
+  action: function() {
+    Reaction.ReactionLayout({
+      template: "contact"
+    });
+  }
+});
